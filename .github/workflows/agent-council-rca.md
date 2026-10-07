@@ -50,7 +50,7 @@ jobs:
 
 engine:
   id: copilot
-  model: claude-sonnet-4.6
+  model: claude-haiku-4.5
 
 safe-outputs:
   add-comment:
@@ -229,7 +229,7 @@ Return a concise analysis in the required `Gemini Council View` format. Do not w
 
 ## agent: `claude-governance-reviewer`
 ---
-model: claude-sonnet-4.6
+model: claude-haiku-4.5
 description: Independent Claude analysis focused on governance for labeled scenarios and polished critical interpretation for freeform issues.
 ---
 
